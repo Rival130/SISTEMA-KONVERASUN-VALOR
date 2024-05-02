@@ -39,22 +39,6 @@
             background-color: #ffffff;
             margin-top: 225px;
         }
-
-        /* .costume-alert {
-            color: white;
-            font-weight: bolder;
-            display: none;
-            position: fixed;
-            top: 35%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            padding: 20px;
-            background-color: rgb(219, 11, 11);
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            z-index: 9999;
-        } */
     </style>
 
 </head>
