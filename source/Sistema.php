@@ -40,7 +40,7 @@
             margin-top: 225px;
         }
 
-        .costume-alert {
+        /* .costume-alert {
             color: white;
             font-weight: bolder;
             display: none;
@@ -54,8 +54,9 @@
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             z-index: 9999;
-        }
+        } */
     </style>
+
 </head>
 
 <body style="background-image: url('../img/la.jpg');">
@@ -78,6 +79,63 @@
     <!-- Taka Header -->
     <br>
     <!-- Prinsipal -->
+    <div class="disAlert">
+        <script>
+            function showAlert() 
+            {
+                const input_text = document.getElementById("input-text").value;
+                if (input_text.trim() === "") 
+                {
+                    const alertDiv = document.createElement("div");
+                    alertDiv.className = "alert alert-danger mx-auto p-2 w-25 p-3 mb-5";
+                    alertDiv.setAttribute("role", "alert");
+                    alertDiv.innerText = "FAVOR PRENSE LAI NUMERU!";
+                    document.querySelector('.disAlert').appendChild(alertDiv);
+                    setTimeout(function() {
+                    alertDiv.style.display = "none";
+                    }, 4000);
+                }
+                else 
+                {
+                    if (input_text >= 8.5 && input_text <= 10) 
+                    {
+                        document.getElementById("output-text").value = "A";
+                    }
+                    else if (input_text >= 7 && input_text <= 8.4) 
+                    {
+                        document.getElementById("output-text").value = "B";
+                    }
+                    else if (input_text >= 5.5 && input_text <= 6.9) 
+                    {
+                        document.getElementById("output-text").value = "C";
+                    }
+                    else if (input_text >= 4 && input_text <= 5.4) 
+                    {
+                        document.getElementById("output-text").value = "D";
+                    }
+                    else if (input_text >= 0 && input_text <= 3.9) 
+                    {
+                        document.getElementById("output-text").value = "E";
+                    }
+                    else
+                    { 
+                        const alertDiv = document.createElement("div");
+                        alertDiv.className = "alert alert-danger mx-auto p-2 w-25 p-3 mb-5";
+                        alertDiv.setAttribute("role", "alert");
+                        alertDiv.innerText = "NUMERU INVALIDU!";
+                        document.querySelector('.disAlert').appendChild(alertDiv);
+                        setTimeout(function() {
+                        alertDiv.style.display = "none";
+                        }, 4000);
+                    }
+                    
+                }
+        }
+        document.addEventListener("DOMContentLoaded", function() {
+                document.getElementById('konv-btn').addEventListener('click', showAlert);
+            });
+        </script>
+    </div>
     <section class="hero">
         <div class="container mt-5">
             <div class="row justify-content-center">
@@ -105,14 +163,8 @@
     </section>
     <!-- Taka Prinsipal -->
 
-    <div id="costumAlert" class="costume-alert"></div>
-
 
     <!-- Taka Footer -->
-
-    <!-- JavaScrip -->
-    <script src="../source/script.js"></script>
-    <!-- Taka JavaScrip -->
 </body>
 
 </html>
