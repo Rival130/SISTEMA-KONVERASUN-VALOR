@@ -45,7 +45,9 @@
             font-weight: bolder;
             display: none;
             position: fixed;
-            top: 35%;
+            text-align: center;
+            width: 300px;
+            top: 33%;
             left: 50%;
             transform: translate(-50%, -50%);
             padding: 20px;
