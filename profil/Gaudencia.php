@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <?php include "../source/menu_top.php" ?>
+    <?php include "../source/navEkipa.php" ?>
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-md-8">
@@ -49,7 +49,7 @@
                             <td>Engenharia Informatika</td>
                         </tr>
                         <tr>
-                            <td colspan="2" class="text-center"><img src="../img/gaudencia.jpg" alt="Foto Profil" style="width: 200px; height: 250px;"></td>
+                            <td colspan="2" class="text-center"><img src="../img/gaudencia.jpg" alt="Foto Profil" style="width: 200px; height: 250px; cursor: pointer;"></td>
                         </tr>
                     </tbody>
                 </table>

@@ -45,8 +45,8 @@
             font-weight: bolder;
             display: none;
             position: fixed;
-            text-align: center;
             width: 300px;
+            text-align: center;
             top: 33%;
             left: 50%;
             transform: translate(-50%, -50%);
@@ -61,7 +61,7 @@
 </head>
 
 <body style="background-image: url('../img/la.jpg');">
-    <?php include "menu_top.php" ?>
+    <?php include "navEkipa.php" ?>
     <!-- Header -->
     <br>
     <div class=" header">
