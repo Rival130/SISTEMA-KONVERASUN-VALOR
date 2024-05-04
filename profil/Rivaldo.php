@@ -49,7 +49,7 @@
                             <td>Engenharia Informatika</td>
                         </tr>
                         <tr>
-                            <td colspan="2" class="text-center"><img src="../img/Rivaldo.jpg" alt="Foto Profil" style="width: 200px; height: 250px;"></td>
+                            <td colspan="2" class="text-center"><img src="../img/Rivaldo.jpg" alt="Foto Profil" style="width: 200px; height: 250px; cursor: pointer;"></td>
                         </tr>
                     </tbody>
                 </table>

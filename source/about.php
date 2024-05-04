@@ -1,4 +1,4 @@
-<?php include "menu_top.php" ?>
+<?php include "navEkipa.php" ?>
 
 <!DOCTYPE html>
 
@@ -38,7 +38,7 @@
                         <li>JAVASCRIPT</li>
                         <li>PHP</li>
                     </ul>
-                    <h5 class="card-title">Framework</h5>
+                    <h5 class="card-title">Framwork</h5>
                     <ul>
                         <li>BOOTSTRAP</li>
                     </ul>

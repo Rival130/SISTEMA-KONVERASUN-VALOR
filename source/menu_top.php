@@ -23,10 +23,10 @@
                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php"><i class="bi bi-house me-2"></i>Baranda</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.php"><i class="bi bi-info-circle me-2"></i>Introdusaun</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="Sistema.php"><i class="bi bi-menu-button-wide me-2"></i>Sistema</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="team.php"><i class="bi bi-people-fill me-2"></i>Ekipa</a></li>
+                       <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php"><i class="bi bi-house me-2"></i>Baranda</a></li>
+                       <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.php"><i class="bi bi-info-circle me-2"></i>Introdusaun</a></li>
+                       <li class="nav-item"><a class="nav-link active" aria-current="page" href="Sistema.php"><i class="bi bi-menu-button-wide me-2"></i>Sistema</a></li>
+                       <li class="nav-item"><a class="nav-link active" aria-current="page" href="team.php"><i class="bi bi-people-fill me-2"></i>Ekipa</a></li>
                    </ul>
                </div>
            </div>
